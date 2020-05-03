@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.feng.spring.di.services.MessageService;
 
-@Component
+// @Component
 public class MyApplication {
 
     // 基于变量的依赖注入
@@ -19,7 +19,7 @@ public class MyApplication {
     //		this.service=svc;
     //	}
 
-    @Autowired
+    // @Autowired
     public void setService(MessageService svc){
         this.service=svc;
     }
